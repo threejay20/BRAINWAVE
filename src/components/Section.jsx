@@ -1,3 +1,13 @@
+/*
+This code defines the Section component, which represents a section container on a webpage. 
+The component receives props including className (optional styling classes), id (unique identifier), 
+crosses (boolean indicating whether to display crosses), crossesOffset (custom offset for crosses), 
+customPaddings (boolean indicating whether to apply custom padding), and children (nested components). 
+It renders a container with the specified id and applies custom padding classes if provided. 
+The component also includes hidden elements for decorative crosses if crosses are enabled. 
+Styling is applied using Tailwind CSS utility classes for consistent and responsive design.
+*/
+
 import SectionSvg from "../assets/svg/SectionSvg";
 
 const Section = ({

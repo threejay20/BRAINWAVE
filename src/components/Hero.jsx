@@ -1,3 +1,13 @@
+/*
+This code defines the Hero component, which represents the hero section of a webpage. 
+The hero section contains a prominent heading, a brief description, and a call-to-action button, 
+and it often includes visually appealing elements such as images, icons, and background gradients. 
+The Hero component utilizes React functional components and hooks, along with various custom components 
+(Button, Generating, Notification, CompanyLogos, BackgroundCircles, BottomLine, Gradient, ScrollParallax, Section) 
+imported from other files, to construct the hero section of the webpage. 
+The component incorporates dynamic styling, parallax effects, and responsive design techniques to create an engaging and visually appealing user experience.
+*/
+
 import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";

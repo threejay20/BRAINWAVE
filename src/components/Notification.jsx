@@ -1,3 +1,12 @@
+/*
+This code defines the Notification component, which represents a notification element typically used in user interfaces 
+to inform users about events, updates, or alerts. 
+The Notification component receives props including className (optional styling classes) and title (notification title). 
+It renders a notification element containing an icon, a title, and a timestamp. 
+The component utilizes images imported from assets and constants to display notification icons dynamically. 
+Styling is applied using Tailwind CSS utility classes for consistent and responsive design.
+*/
+
 import { notification1 } from "../assets";
 import { notificationImages } from "../constants";
 

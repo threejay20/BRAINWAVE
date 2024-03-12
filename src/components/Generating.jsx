@@ -1,3 +1,10 @@
+/*
+This code defines the Generating component, which represents a message indicating that AI is generating content. 
+The component receives props including className (optional styling classes). 
+It renders a container with an icon (indicating loading) and a text message. 
+Styling is applied using Tailwind CSS utility classes for consistent and responsive design.
+*/
+
 import { loading } from "../assets";
 
 const Generating = ({ className }) => {

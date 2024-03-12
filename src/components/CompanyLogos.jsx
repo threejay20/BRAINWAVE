@@ -1,3 +1,12 @@
+/*
+This code defines the CompanyLogos component, which displays logos of various companies. 
+The component receives props including className (optional styling classes). 
+It renders a container with a tagline and a list of company logos. 
+The logos are dynamically generated using images imported from the constants file. 
+The component utilizes flexbox to arrange the logos horizontally with equal spacing. 
+Styling is applied using Tailwind CSS utility classes for consistent and responsive design.
+*/
+
 import { companyLogos } from "../constants";
 
 const CompanyLogos = ({ className }) => {

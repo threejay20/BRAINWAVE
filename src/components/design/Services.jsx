@@ -1,3 +1,7 @@
+// This section defines a set of React components related to chat messages and video controls.
+// It includes components for displaying gradients, photo chat messages, video chat messages,
+// and a video control bar.
+
 import { brainwaveWhiteSymbol, gradient, play } from "../../assets";
 import ChatBubbleWing from "../../assets/svg/ChatBubbleWing";
 
